@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Hard - Pixel Quest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+</head>
+<body>
+
+    <main class="pixel-window">
+        <div class="title-bar">
+            <p>SmileHard.exe</p>
+            <div class="title-bar-buttons">
+                <span>_</span><span>❐</span><span>X</span>
+            </div>
+        </div>
+        <div class="window-content">
+            <div class="webcam-container">
+                <video id="webcam" width="640" height="480" autoplay muted></video>
+                <canvas id="overlay-canvas"></canvas>
+                <div class="score-display">
+                    SCORE: <span id="score">0</span>
+                </div>
+            </div>
+            <div class="game-ui">
+                <div class="smile-meter-container">
+                    <p>SMILE POWER</p>
+                    <div class="smile-meter">
+                        <div class="smile-meter-bar" id="smile-meter-bar"></div>
+                    </div>
+                </div>
+                <button class="pixel-btn" id="save-btn">Save Snapshot</button>
+            </div>
+        </div>
+    </main>
+    
+    <script defer src="script.js"></script>
+</body>
+</html>
