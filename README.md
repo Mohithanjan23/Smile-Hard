@@ -1,5 +1,6 @@
 # Smile Hard - Pixel Quest ✨
 
+Visit to see the output : https://mohithanjan23.github.io/Smile-Hard/
 **Smile Hard** is a fun, retro-themed webcam game that scores you based on the width of your smile! This version features a nostalgic, pixelated UI inspired by classic computer games.
 
 The entire application runs in your browser using AI, meaning your camera feed is **100% private** and never sent to a server.
@@ -26,4 +27,5 @@ The entire application runs in your browser using AI, meaning your camera feed i
 1.  **Download the Files:** Save `index.html`, `style.css`, and `script.js` into the same folder.
 2.  **Open in Browser:** Open the `index.html` file in a modern web browser (like Chrome or Firefox).
 3.  **Grant Webcam Permission:** The browser will ask for permission to use your webcam. You must click **Allow** for the game to work.
+
 4.  **Smile!** Face the camera and give it your biggest grin to max out the score.
